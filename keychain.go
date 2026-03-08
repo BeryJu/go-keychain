@@ -302,7 +302,6 @@ const (
 	AccessControlFlagsBiometryAny         AccessControlFlags = C.kSecAccessControlBiometryAny
 	AccessControlFlagsBiometryCurrentSet  AccessControlFlags = C.kSecAccessControlBiometryCurrentSet
 	AccessControlFlagsDevicePasscode      AccessControlFlags = C.kSecAccessControlDevicePasscode
-	AccessControlFlagsWatch               AccessControlFlags = C.kSecAccessControlWatch
 	AccessControlFlagsOr                  AccessControlFlags = C.kSecAccessControlOr
 	AccessControlFlagsAnd                 AccessControlFlags = C.kSecAccessControlAnd
 	AccessControlFlagsPrivateKeyUsage     AccessControlFlags = C.kSecAccessControlPrivateKeyUsage
